@@ -4,4 +4,4 @@ Problems List:
 3. Fibonacii series
 4. Find Odd Even
 5. Prime Numbers
-6. 
+6. Armstrong number
