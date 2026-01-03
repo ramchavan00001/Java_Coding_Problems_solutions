@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-24T19:44:59 IST" name="Default suite" finished-at="2025-09-24T19:44:59 IST" duration-ms="67">
+  <suite started-at="2025-11-27T19:31:53 IST" name="Default suite" finished-at="2025-11-27T19:32:57 IST" duration-ms="63465">
     <groups>
     </groups>
-    <test started-at="2025-09-24T19:44:59 IST" name="Default test" finished-at="2025-09-24T19:44:59 IST" duration-ms="67">
-      <class name="JavaCode.FindOddEvenNumber">
-        <test-method signature="findOddEven()[pri:0, instance:JavaCode.FindOddEvenNumber@55141def]" started-at="2025-09-24T19:44:59 IST" name="findOddEven" finished-at="2025-09-24T19:44:59 IST" duration-ms="13" status="PASS">
+    <test started-at="2025-11-27T19:31:53 IST" name="Default test" finished-at="2025-11-27T19:32:57 IST" duration-ms="63465">
+      <class name="SeleniumPracticedCode.BasicDriverOperations">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:31:53 IST" name="openApplication" finished-at="2025-11-27T19:32:11 IST" duration-ms="17834" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findOddEven -->
-      </class> <!-- JavaCode.FindOddEvenNumber -->
+        </test-method> <!-- openApplication -->
+        <test-method signature="findAllBrokenLinksPresent()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:11 IST" name="findAllBrokenLinksPresent" finished-at="2025-11-27T19:32:32 IST" duration-ms="20856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllBrokenLinksPresent -->
+        <test-method is-config="true" signature="closeApplications()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:32 IST" name="closeApplications" finished-at="2025-11-27T19:32:33 IST" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplications -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:33 IST" name="openApplication" finished-at="2025-11-27T19:32:39 IST" duration-ms="5546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="findAllBrokenLinksPresentnew()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:39 IST" name="findAllBrokenLinksPresentnew" finished-at="2025-11-27T19:32:39 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAllBrokenLinksPresentnew -->
+        <test-method is-config="true" signature="closeApplications()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:39 IST" name="closeApplications" finished-at="2025-11-27T19:32:40 IST" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplications -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:40 IST" name="openApplication" finished-at="2025-11-27T19:32:45 IST" duration-ms="4874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="findCountOfProduct()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:45 IST" name="findCountOfProduct" finished-at="2025-11-27T19:32:48 IST" duration-ms="3072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findCountOfProduct -->
+        <test-method is-config="true" signature="closeApplications()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:48 IST" name="closeApplications" finished-at="2025-11-27T19:32:49 IST" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplications -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:49 IST" name="openApplication" finished-at="2025-11-27T19:32:55 IST" duration-ms="6431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="testLogoAndTitle()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:55 IST" name="testLogoAndTitle" finished-at="2025-11-27T19:32:56 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoAndTitle -->
+        <test-method is-config="true" signature="closeApplications()[pri:0, instance:SeleniumPracticedCode.BasicDriverOperations@3fc2959f]" started-at="2025-11-27T19:32:56 IST" name="closeApplications" finished-at="2025-11-27T19:32:57 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplications -->
+      </class> <!-- SeleniumPracticedCode.BasicDriverOperations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
