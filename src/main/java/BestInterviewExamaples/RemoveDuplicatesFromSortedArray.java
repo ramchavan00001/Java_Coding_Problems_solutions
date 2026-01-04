@@ -28,6 +28,10 @@ public class RemoveDuplicatesFromSortedArray {
         System.out.println("The sorted array"+sorted);
 		
         anotherApproachUsingTwoPointer();
+        
+        int [] array1= {1,2,3,3,2,3,1,6,7,3,7,3,3};
+        int count=removeElement(array1,3);
+        System.out.println("Counts : "+count);
 		
 	}
 	
@@ -54,6 +58,23 @@ public class RemoveDuplicatesFromSortedArray {
 		Arrays.stream(arr).forEach(System.out::println);
 		
 	}
+	
+	public static int removeElement(int[] nums, int val) {
+
+        int j=0;
+        
+        for(int i=0;i<=nums.length-1;i++)
+        {
+            if(nums[i]!=val)
+            {
+                nums[j]=nums[i];
+                j++;
+            }
+        }
+        return j;
+
+
+    }
 	
 	
 }
