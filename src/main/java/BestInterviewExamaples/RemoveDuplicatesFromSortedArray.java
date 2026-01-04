@@ -32,6 +32,11 @@ public class RemoveDuplicatesFromSortedArray {
         int [] array1= {1,2,3,3,2,3,1,6,7,3,7,3,3};
         int count=removeElement(array1,3);
         System.out.println("Counts : "+count);
+        
+        int nums1 []= {1,3,4,5};
+        
+        int index=searchInsert(nums1,6);
+        System.out.println("Target element index : "+index);
 		
 	}
 	
@@ -75,6 +80,39 @@ public class RemoveDuplicatesFromSortedArray {
 
 
     }
+
 	
+	 public static int searchInsert(int[] nums, int target) {
+		 	
+		 //program to return the index of the target element from the sorted array. if target element is not present then it should
+		 //return the index at which it should be present - expected index
+		 
+		 
+	        int left=0;
+	        int right=nums.length-1;
+
+	        while(left<=right)
+	        {
+	            int mid = left + (right - left) / 2;
+
+	            if(nums[mid]==target)
+	            {
+	                return mid;
+	            }
+	            if(nums[mid]<target)
+	            {
+	                left=mid+1;
+	            }
+	            else
+	            {
+	                right=mid-1;
+	            }
+	        }
+
+	        return left;
+	        //why left here -> if the target element is not present then left index is the lower bound which is the first element less than or equal to the 
+	        //target element so it should be returned
+	        
+	    }
 	
 }
